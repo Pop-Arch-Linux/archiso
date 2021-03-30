@@ -123,7 +123,9 @@ xf86-video-intel
 nvidia
 nvidia-utils
 nvidia-settings
+xorg-xrandr
 grub
+yay-bin
 
 # System76 hardware
 system76-dkms
