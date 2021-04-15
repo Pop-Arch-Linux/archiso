@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 alsa-utils
 amd-ucode
+archinstall
 arch-install-scripts
 b43-fwcutter
 base
@@ -33,7 +34,6 @@ gpart
 gpm
 gptfdisk
 grml-zsh-config
-haveged
 hdparm
 intel-ucode
 ipw2100-fw
@@ -58,6 +58,7 @@ memtest86+
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
+modemmanager
 mtools
 nano
 nbd
@@ -82,7 +83,9 @@ rsync
 rxvt-unicode-terminfo
 sdparm
 sg3_utils
+sl
 smartmontools
+sof-firmware
 squashfs-tools
 sudo
 syslinux
@@ -94,6 +97,7 @@ testdisk
 tmux
 udftools
 usb_modeswitch
+usbmuxd
 usbutils
 vim
 vpnc
@@ -107,11 +111,24 @@ zsh
 
 # Installer
 alci-calamares
+alci-calamares-config
 
 # devel
 base-devel
 git
 linux-headers
+
+# System76 hardware
+aic94xx-firmware
+wd719x-firmware
+upd72020x-fw
+system76-acpi-dkms
+system76-dkms
+system76-firmware
+system76-firmware-daemon
+system76-io-dkms
+system76-driver
+system76-power
 
 # Pop Arch OS
 fish
@@ -123,15 +140,8 @@ xf86-video-intel
 nvidia
 nvidia-utils
 nvidia-settings
-xorg-xrandr
 grub
-yay-bin
-
-# System76 hardware
-system76-dkms
-system76-firmware
-system76-firmware-daemon
-system76-io-dkms
+os-prober
 
 # gnome
 gdm
@@ -172,7 +182,11 @@ mutter
 nautilus
 networkmanager
 gnome-tweaks
+pamac-aur
 
 # Apps
 firefox
 neofetch
+xorg-xrandr
+xorg-xkill
+yay-bin
