@@ -2,8 +2,8 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 alsa-utils
 amd-ucode
-archinstall
 arch-install-scripts
+archinstall
 b43-fwcutter
 base
 bind-tools
@@ -13,6 +13,7 @@ btrfs-progs
 clonezilla
 cloud-init
 crda
+cryptsetup
 darkhttpd
 ddrescue
 dhclient
@@ -21,6 +22,7 @@ diffutils
 dmraid
 dnsmasq
 dosfstools
+e2fsprogs
 edk2-shell
 efibootmgr
 espeakup
@@ -39,10 +41,14 @@ intel-ucode
 ipw2100-fw
 ipw2200-fw
 irssi
+iw
 iwd
 jfsutils
 kitty-terminfo
+less
 lftp
+libfido2
+libusb-compat
 linux
 linux-atm
 linux-firmware
@@ -74,16 +80,18 @@ openvpn
 partclone
 parted
 partimage
+pcsclite
 ppp
 pptpclient
+qemu-guest-agent
 reflector
 reiserfsprogs
 rp-pppoe
 rsync
 rxvt-unicode-terminfo
+screen
 sdparm
 sg3_utils
-sl
 smartmontools
 sof-firmware
 squashfs-tools
@@ -95,11 +103,13 @@ terminus-font
 termite-terminfo
 testdisk
 tmux
+tpm2-tss
 udftools
 usb_modeswitch
 usbmuxd
 usbutils
 vim
+virtualbox-guest-utils-nox
 vpnc
 wireless-regdb
 wireless_tools
@@ -108,6 +118,10 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+
+#Chaotic AUR
+chaotic-keyring
+chaotic-mirrorlist
 
 # Installer
 alci-calamares
@@ -131,6 +145,7 @@ system76-driver
 system76-power
 
 # Pop Arch OS
+plymouth
 fish
 networkmanager
 network-manager-applet
@@ -144,7 +159,7 @@ grub
 os-prober
 
 # gnome
-gdm
+gdm-plymouth
 gedit
 gnome-backgrounds
 gnome-calculator
@@ -166,7 +181,7 @@ gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
 gnome-system-monitor
-gnome-terminal
+gnome-terminal-transparency
 gnome-themes-extra
 gnome-user-docs
 gnome-user-share
